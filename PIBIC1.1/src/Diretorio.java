@@ -10,7 +10,7 @@ public class Diretorio {
 	public File [] listaDoDiretorio;
 	private int tipo = -1;
 	
-	
+	//aa
 	public void getDiretorio(){		
 		System.out.printf("Informe o caminho da base:");
 		
