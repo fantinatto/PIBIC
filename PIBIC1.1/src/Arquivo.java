@@ -67,6 +67,7 @@ public class Arquivo {
 			File arquivoLeitura = new File(Arquivo); 
 
 			// pega o tamanho 
+			System.out.println("teste git");
 			long tamanhoArquivo = arquivoLeitura .length(); 
 			FileInputStream fs = new FileInputStream(arquivoLeitura); 
 			DataInputStream in = new DataInputStream(fs); 
